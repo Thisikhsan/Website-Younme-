@@ -1,0 +1,699 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+  font-family:;
+  font-size: 30px;
+  font-weight: bolder;
+  margin:0px;
+  padding: 0px;
+  background-image: url('photo/meat.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.position{
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+ul.menuatas {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#009900;
+  border-bottom: 2px solid black;
+  box-shadow: 10px 5px 15px blue;
+}
+
+ul.menuatas li {
+  float: left;
+}
+
+ul.menuatas li a {
+  font-family:  ;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-left: 15px;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 20px;
+}
+
+
+ul.menuatas li a:hover {color: yellow;}
+ul.menuatas li.icon {display: none;}
+
+.jarak{
+  margin-right: 50px;
+}
+
+* {box-sizing: border-box}
+body {font-family: "Lato", sans-serif;}
+
+/* Style the tab */
+
+.tab {
+  float: left;
+  border: 5px solid black;
+  background-color: #f1f1f1;
+  width: 30%;
+  height: 400px;
+  position: relative;
+  right: 10px;
+  box-shadow: 10px 5px 15px black;
+
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: white;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 5px solid black;
+  width: 67%;
+
+  height: 400px;
+  display: none;
+  position: relative;
+  left: 10px;
+  background-color: white;
+  box-shadow: 10px 5px 15px black;
+}
+
+.tabcontent h3{
+  font-size: 23px;
+  font-weight:bolder;
+}
+.tabcontent p{
+  font-size: 19px;
+  font-weight:none;
+}
+
+.tabcontent iframe{
+width: 450px;
+}
+
+.tabcontent img{
+  width: 400px;
+}
+
+/* Clear floats after the tab */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;}
+
+.search {
+  padding:8px 15px;
+  background:#f0f8ff;
+  border:2px solid #008080;
+}
+
+
+
+.button {
+  position:relative;
+  left:-4px;
+  padding:10px 15px;
+  border:0px solid #008080;
+  background-color: #008080;
+  color:#fafafa;
+  font-weight:bold;
+}
+
+.button:hover {
+  background:#6b8e23;
+  color:#fafafa;
+}
+
+.button:active {
+   background:#9ACD32;
+ }
+
+ #first {
+   margin-top:20px;
+   margin-bottom: 0px;
+ }
+
+ .logo img{
+   margin-left: 20px;
+   margin-bottom: 0px;
+   margin-top: 7px;
+   width: 40px
+ }
+
+ .cart{
+   text-align: right;
+   position: fixed;
+ }
+
+
+ .home{
+  width: 100%;
+  margin-top:65px;
+  margin-bottom: 0px;
+}
+
+.home img{
+  width: 850px;
+  margin-bottom: 0px;
+  border-bottom: 5px solid black;
+  z-index: 2;
+
+}
+
+ .swiper-container {
+   position: inherit ;
+   margin-top:100px;
+   width: 100%;
+ }
+
+ .swiper-slide {
+   text-align: center;
+   font-size: 18px;
+   background-color: ;
+
+   /* Center slide text vertically */
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   -webkit-align-items: center;
+   align-items: center;
+ }
+
+ .swiper-slide img {
+   display: block;
+   width: 100%;
+   height: 410px;
+   object-fit: cover;
+   box-shadow: 10px 5px 15px black;
+ }
+
+ .cover{
+   box-shadow: 10px 5px 15px blue;
+ }
+
+
+
+ .daftar{
+   margin-top:0px;
+   width: 100%;
+   height: 60px;
+   background-color:#ff3333;
+   color: white;
+   text-align: center;
+   border: 3px groove black;
+   border-top: 5px solid black;
+ }
+
+
+ .offers{
+   margin-top:66px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   box-shadow: 10px 5px 15px black;
+   background-color:yellow ;
+   border: 2px solid black;
+   z-index: 1;
+
+ }
+
+ .offer-item{
+   text-align: center;
+   width: 100px;
+   margin: 10px;
+
+ }
+ .offer-item a{
+   text-decoration: none;
+   font-family: monospace;
+   color: black;
+   font-size: 23px;
+   font-weight: bolder;
+ }
+
+ .offer-item a:hover{
+   color: red;
+ }
+
+.about{
+  border: 1px solid black;
+  background-color: white;
+  text-align: center;
+  font-family:sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+  color: black;
+  margin: 40px;
+}
+
+.menu1{
+  border:0px none ;
+  margin-top: 70px;
+  width: 100%;
+  background-color:;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.menu2{
+  background-image: url('photo/banner5.jpg');
+  width: 500px;
+  height: 200px;
+
+}
+
+.menu2 .photo2{
+  background-image: url('photo/banner3.jpg');
+}
+
+ .foods{
+   display: flex;
+   justify-content:space-around;
+   align-content: center;
+   flex-wrap: wrap;
+
+   border: 0px solid black;
+   border-bottom: 0px solid black;
+   margin: 20px;
+
+ }
+
+ .foods-title{
+  font-size: 50px;
+  text-align: center;
+  font-weight: bolder;
+  font-family:;
+  background-color: ;
+  color: white;
+ }
+
+ .food-item{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   align-items: center;
+   border: 4px solid gray;
+   background-color: white;
+   width: 300px;
+   height: 330px;
+   border-radius: 10%;
+   box-shadow: 10px 5px 15px black;
+   margin: 10px;
+ }
+
+ .food-title{
+   font-size: 30px;
+   margin:20px;
+
+ }
+ #sponge{
+   width: 145px;
+ }
+
+ #patrick{
+   width: 170px;
+ }
+ #squi{
+   width: 95px;
+ }
+ #krab{
+   width: 230px;
+ }
+
+ .food-item img{
+   width: 200px;
+   transition: 0.4s ease-in-out;
+   display: block;
+   align-items: center;
+ }
+
+ #green :hover{
+   box-shadow: 3px 7px 40px green;
+ }
+ #green2:hover{
+   box-shadow: 3px 7px 40px green;
+ }
+ #red:hover{
+   box-shadow: 3px 7px 40px red;
+ }
+ #red2:hover{
+   box-shadow: 3px 7px 40px red;
+ }
+ #blue:hover{
+   box-shadow: 3px 7px 40px blue;
+ }
+ #blue2:hover{
+   box-shadow: 3px 7px 40px blue;
+ }
+
+ #yellow:hover{
+   box-shadow: 3px 7px 40px yellow;
+ }
+ #yellow2:hover{
+   box-shadow: 3px 7px 40px yellow;
+ }
+
+ .food-item img:hover{
+    transform:translateY(-30px);
+
+ }
+ .food-item a{
+   font-family: fantasy;
+   font-weight: bolder;
+   color: black;
+   text-decoration: none;
+ }
+
+ .food-item a:hover{
+   color: green;
+ }
+
+ .price{
+   font-family: sans-serif;
+   font-style: italic;
+   color: gray;
+   font-size: 25px;
+ }
+
+ .price:hover{
+   color:green;
+ }
+
+
+.alamat{
+  border: 1px solid black;
+  background-color: white;
+  box-shadow: 3px 7px 40px black;
+  color: white;
+  text-align: center;
+  margin: 30px;
+  font-family: sans-serif;
+  animation: mymove 5s infinite;
+  border-radius: 5%;
+}
+
+.shadow{
+  box-shadow: 3px 7px 40px black;
+}
+
+.shadow img{
+  border-bottom: 10px solid black;
+}
+
+
+.tentang{
+  margin-top: 30px;
+  text-align: justify;
+}
+
+
+/* Back to Top Pure CSS by igniel.com */
+html {scroll-behavior:smooth;}
+.ignielToTop {
+  width:50px;
+  height:50px;
+  position:fixed;
+  bottom:50px;
+  right:50px;
+  z-index:99;
+  cursor:pointer;
+  border-radius:100px;
+  transition:all .5s;
+  background:#008c5f url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z' fill='%23fff'/%3E%3C/svg%3E")
+  no-repeat center center;
+}
+
+.ignielToTop:hover {
+  background:#1d2129 url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z' fill='%23fff'/%3E%3C/svg%3E")
+  no-repeat center center;
+}
+
+.sci{
+  position: relative;
+  left:0px;
+  bottom: 40px;
+  top: 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sci li{
+  list-style: none;
+}
+
+.sci li a{
+  display: inline-block;
+  margin-left: 0px;
+  background: #222;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: 0.4s ease-in-out;
+  z-index: -1;
+}
+.sci li a:hover{
+  background: green;
+  transform: translateY(-10px);
+
+}
+.sci li a img{
+  filter: invert(1);
+  transform: scale(0.5);
+}
+
+.formKomentar{
+    border: 5px double black;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    width:70%;
+    weight: 70px;
+    padding:10px;
+    box-shadow: 3px 7px 40px black;
+    background-color: #f2f2f2;
+
+  }
+
+  .formkomentar input, textarea{
+    width: 500px;
+     padding: 10px;
+     border:3px solid #e6e6e6;
+     border-radius: 5px;
+     margin-bottom: 15px;
+}
+
+ .formkomentar input:focus, textarea:focus{
+    border:3px solid #5E4F4F;
+      box-shadow: 3px 7px 40px blue;
+}
+
+.formkomentar2 textarea{
+    margin-top: 10px;
+}
+
+.formkomentar1 input[type="text"] {
+    width: 400px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.formkomentar input[type="submit"]{
+     cursor: pointer;
+     background: -webkit-linear-gradient(top, #efefef, #ddd);
+     background: -moz-linear-gradient(top, #efefef, #ddd);
+     background: -ms-linear-gradient(top, #efefef, #ddd);
+     background: -o-linear-gradient(top, #efefef, #ddd);
+     background: linear-gradient(top, #efefef, #ddd);
+     color: #333;
+     text-shadow: 0px 1px 1px rgba(255,255,255,1);
+     border: 1px solid #ccc;
+}
+
+.formkomentar input[type="submit"]:hover {
+     background: -webkit-linear-gradient(top, #eee, #ccc);
+     background: -moz-linear-gradient(top, #eee, #ccc);
+     background: -ms-linear-gradient(top, #eee, #ccc);
+     background: -o-linear-gradient(top, #eee, #ccc);
+     background: linear-gradient(top, #eee, #ccc);
+     border: 1px solid #bbb;
+}
+
+ footer{
+   background-color: 	 #ff3333;
+   width: 100%;
+   margin: 0px;
+   border-top: 5px groove black;
+ }
+
+ footer ul li{
+   margin-left: 100px;
+ }
+
+ footer ul li a{
+   text-decoration: none;
+   font-family:;
+   font-weight: bold;
+   font-size: 20px;
+   color:white;
+   }
+
+ footer a:hover{
+   color: yellow;
+ }
+
+ footer p{
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+   font-size: 20px;
+   text-transform: capitalize;
+ }
+
+ .sejajar{
+  display: inline-block;
+  width: 40%;
+}
+.sejajar1{
+  display: inline-block;
+  width: 15%;
+
+}
+
+.sponsor{
+  list-style: none;
+  display: inline-block;
+}
+
+.sponsor li img{
+  display: inline-block;
+  margin-top: 10px;
+}
+
+@media screen and (max-width:900px) {
+  ul.menuatas{
+    background-color: green;
+  }
+
+  ul.menuatas li:not(:first-child) {
+    display: none;
+  }
+  ul.menuatas li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+
+
+@media screen and (max-width:900px) {
+  ul.menuatas.responsive {position: relative;}
+  ul.menuatas.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.menuatas.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.menuatas.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width:750px){
+  .formkomentar input, textarea{
+    width: 300px;
+  }
+  .formkomentar1 input[type="text"] {
+      width: 250px;
+    }
+}
+
+@media screen and (max-width:750px){
+.tabcontent iframe{
+  width: 300px;
+}
+.tabcontent p{
+  font-size: 14px;
+}
+.tabcontent img{
+  width: 300px;
+}
+}
+
+@media screen and (max-width:900px){
+  .sejajar{
+   display: flow-root;
+   width:300px;
+ }
+
+ .sejajar1{
+  display:flow-root;
+}
+}
+@media screen and (max-width:650px){
+  .sci{
+    display:flow-root;
+    align-content: center;
+  }
+  .sci li a{
+    margin-bottom: 20px;
+  }
+}
+
+@keyframes mymove {
+  from {background-color: red;}
+  to {background-color: blue;}

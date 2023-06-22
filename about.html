@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="swiper-bundle.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title></title>
+  </head>
+  <body>
+
+    <div class="position">
+    <ul class="menuatas" id="myTopnav">
+      <div class="logo"><li><img src="photo/desain.png"><li></div>
+      <li><a class="nav-item" href="#"><input class="search" type="text" placeholder="Search for Products">
+        <input class="button" type="submit" value="Search"></a></li>
+      <li><a class="active" href="home.html"><i class="fa fa-fw fa-home"></i>Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="#tentang">About Us</a></li>
+      <li><a href="checkout.html"><i class="fa fa-shopping-cart"></i>Cart</a></li>
+      <li class="icon">
+        <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction
+
+    ()">☰</a>
+      </li>
+    </ul>
+    </div>
+
+
+<center id="tentang">
+  <img src="photo/play.gif" width="600px" style="margin-top: 100px;">
+</center>
+
+
+
+  <div class="about" >
+      <h2>About us</h2>
+      <p>Youme adalah kedai makanan cepat saji yang menawarkan aneka macam burger dan makananan lainnya yang beraneka ragam. konsep kedai kami didasarkan kepada kecepatan penyajian, harga yang terjangkau, kehigienisan tempat dan bahan baku yang kami sediakan pilihan terbaik bagi konsumen</p>
+  </div>
+
+  <div class="foods-container">
+
+      <div class="foods">
+          <div id="blue" class="food-item">
+            <div class="food-title">Ikhsan Nur Majid</div>
+            <a href=""><img src="photo/squi.png" id="squi">
+            <input class="button" type="submit" value="Web Programmer"></a>
+          </div>
+
+          <div id="red" class="food-item">
+            <div class="food-title"> Putri Aprillia</div>
+            <a href=""><img src="photo/sponge.png" id="sponge">
+            <div><input class="button" type="submit" value="Web designer"></a></div>
+          </div>
+
+          <div id="green2"class="food-item">
+            <div class="food-title">Melisa Kharisma</div>
+            <a href="#"><img src="photo/patrick.png" id="patrick">
+            <div><input class="button" type="submit" value="Web designer"></a></div>
+          </div>
+
+          <div id="yellow"class="food-item">
+            <div class="food-title">Nazla Ainayah</div>
+            <a href="#"><img src="photo/tuan.png" id="krab">
+            <div><input class="button" type="submit" value="Web designer"></a></div>
+          </div>
+
+    </div>
+  </div>
+
+<a href="#" class="ignielToTop"></a>
+
+<footer>
+  <div class="sejajar">
+    <ul>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Email</a></li>
+    <li><a href="#">privacy policy</a></li>
+    </ul>
+  </div>
+
+  <div class="sejajar1">
+    <ul class="sponsor">
+      <li><img src="photo/dana.png" alt="" style="width: 140px;"> </li>
+    <li><img src="photo/gojek.png" alt="" style="width: 140px;"> </li>
+    </ul>
+  </div>
+
+  <div class="sejajar1">
+    <ul class="sponsor">
+    <li><img src="photo/ovof.jpg" alt="" style="width: 90px;"> </li>
+    <li><img src="photo/grabfood.png" alt="" style="width: 140px;"> </li>
+    </ul>
+  </div>
+
+  <div class="sejajar1">
+    <ul class="sponsor">
+    <li><img src="photo/bca.png" alt="" style="width: 100px;"> </li>
+    <li><img src="photo/bni.png" alt="" style="width: 100px;"> </li>
+    </ul>
+  </div>
+
+
+<ul class="sci">
+  <li><a href="#"><img src="photo/facebook.png" alt=""></a></li>
+  <li><a href="#"><img src="photo/instagram.png" alt=""></a></li>
+  <li><a href="#"><img src="photo/twitter.png" alt=""></a></li>
+</ul>
+<div style="z-index:1;" id="WAButton"></div>
+<p>Copyright &copy; Younme Foods</p>
+</footer>
+
+<script src="swiper-bundle.min.js"></script>
+    <script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "menuatas") {
+            x.className += " responsive";
+        } else {
+            x.className = "menuatas";
+        }
+    }
+    </script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+
+    </script>
+
+    <!--Jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!--Floating WhatsApp css-->
+    <link rel="stylesheet" href="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.css">
+    <!--Floating WhatsApp javascript-->
+    <script type="text/javascript" src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.js"></script>
+
+    <script>
+    $(function() {
+      $('#WAButton').floatingWhatsApp({
+        phone: '085887960689', //WhatsApp Business phone number International format-
+        //Get it with Toky at https://toky.co/en/features/whatsapp.
+        headerTitle: 'Chat with us on WhatsApp!', //Popup Title
+        popupMessage: 'Hello, ada yang bisa kami bantu?', //Popup Message
+        showPopup: true, //Enables popup display
+        buttonImage: '<img src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/whatsapp.svg" />', //Button Image
+        headerColor: 'blue', //Custom header color
+        backgroundColor: 'crimson', //Custom background button color
+        position: "left"
+      });
+    });
+    </script>
+
+
+
+  </body>
+</html>
